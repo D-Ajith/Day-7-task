@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 task</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Full stack developer</legend>
+        <form align="center" action="./login page.html">
+            <h1>Applying for Full stack developer position</h1>
+            <label>Full Name </label><input type="text" placeholder="Enter your Name" required minlength="3" maxlength="15"><br><br>
+            <label>Mobile </label><input type="tel" placeholder="Enter number" required maxlength="10"><br><br>
+            <label>Email </label><input type="email" placeholder="Enter your email" required><br><br>
+            <label>password </label><input type="password" placeholder="Enter your password" required minlength="8" maxlength="12"><br><br>
+            <label>Confirm password </label><input type="password" placeholder="Enter your Confirm password" required minlength="8" maxlength="12"><br><br>
+            <label name="gender">Enter your gender </label>
+            <input type="radio" name="gender"><label>Male</label>
+            <input type="radio" name="gender"><label>Female</label><br><br>
+            <label>Date of Birth   </label>
+            <input type="date" required><br><br>
+            <label>Upload Resume </label><input type="file"><br><br>
+            <label>Time of submission </label><input type="time"><br><br>
+            <label>Languages known </label>
+            <select required multiple>
+               <option value="English">English</option>
+               <option value="Hindi">Hindi</option>
+               <option value="Telugu">Telugu</option>
+               <option value="Tamil">Tamil</option>
+            </select><br><br>
+            <label>Programming languages known </label>
+            <select multiple>
+                <option value="Html">Html</option>
+                <option value="Css">CSS</option>
+                <option value="Javascript">Javascript</option>
+                <option value="React">React</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Sql">Sql</option>
+            </select><br><br>
+            <label>Applying for </label>
+            <select>
+                <option value="Frontend" disabled>Frontend</option>
+                <option value="Database" disabled>Database</option>
+                <option value="Backend" disabled>Backend</option>
+                <option value="Testing" disabled>Testing</option>
+                <option value="Full Stack Developer" selected>Full Stack Developer</option>
+            </select><br><br>
+            <label>Prefer Loaction </label>
+            <select>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Pune">Pune</option>
+            </select><br><br>
+            <label>Choose Time slot for exam</label>
+            <input list="test" required>
+            <datalist id="test">
+                <option value="9:30"></option>
+                <option value="11:30"></option>
+                <option value="1:30"></option>
+                <option value="3:30"></option>
+            </datalist><br><br>
+            <input type="checkbox"><span>I agree all terms and <a href="./privacy.html" target="_blank">conditions</a> and <a href="./privacy.html" target="_blank">privacy policy.</a></span><br><br>
+            <button type="submit">Register</button> <button type="reset">Reset</button>
+        </form>
+    </fieldset>
+</body>
+</html>
